@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec node server.js"
+    "start": "nodemon --exec node ./src/server.js"
+  },
+  "engines": {
+    "node": ">=12"
   },
   "author": "Divan",
   "license": "ISC",
